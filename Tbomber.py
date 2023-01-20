@@ -1,6 +1,9 @@
 #########################################
-# Shanto-bomber
+# ToxicBomber
 # A Bangladeshi SMS Bomber Tool
+# Author: ToxicNoob Inc.
+# GitHub: https://github.com/Toxic-Noob
+# Version: 4.1.0
 #########################################
 
 import time
@@ -89,19 +92,19 @@ def update():
 #Logo
 def logo():
     os.system("clear")
-╔══╗───────╔╗─╔╗───────
-║╔╗║╔═╗╔══╗║╚╗╠╣╔═╦╗╔═╗
-║╔╗║║╬║║║║║║╬║║║║║║║║╬║
-╚══╝╚═╝╚╩╩╝╚═╝╚╝╚╩═╝╠╗║
-────────────────────╚═╝
-───────────────────────  \033
-______________________×__________________________
-  Owner   :  SHANTO 
-  
-  Github   :  HEXA-SHANTO
-  
-  Facebook : S　H　A　N　T　O　ツ
-  
+    print("\033[94m┌────────────────────────────────────────┐".center(columns+5))
+    print("\033[94m│     \033[92m╔══╗  ░╔╗╔╗░╔══╗░╔═╦╗░╔══╗░╔═╗       \033[94m   │".center(columns+15))
+    print("\033[94m│     \033[92m║══╣  ░║╚╝║░║╔╗║░║║║║░╚╗╔╝░║║║ \033[94m   │".center(columns+15))
+    print("\033[94m│     \033[92m╠══║  ░╠══║░║╔╗║░║╠╣║░║║║║░─║║─║║║  \033[94m   │".center(columns+15))
+    print("\033[94m│     \033[92m╚══╝  ░╚╝╚╝░╚╝╚╝░╚╩═╝░─╚╝─░╚═╝   \033[94m   │".center(columns+15))
+    print("\033[94m│                              \033[94m          │".center(columns+9))
+    print("\033[94m│ \033[95mAuthor : ToxicNoob Inc.                \033[94m│".center(columns+15))
+    print("│ \033[95mTool   : Unlimited SMS Bomber          \033[94m│".center(columns+9))
+    print("│ \033[95mGitHub : https://github.com/Toxic-Noob \033[94m│".center(columns+9))
+    print("│ \033[95mCoder  : HunterSl4d3              \033[37mV4.1 \033[94m│".center(columns+15))
+    print("\033[94m└────────────────────────────────────────┘".center(columns+5))
+
+
 # Options Banner
 def banner():
     amount = str(main.amount)
